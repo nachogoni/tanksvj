@@ -1,0 +1,42 @@
+fileFormatVersion: 1
+guid: 8b63a2f12969c814c833b1d6e6fe0073
+ModelImporter:
+  importerVersion: 4
+  meshes:
+    scaleFactor: 0.01
+    meshCompression: 0
+    generateColliders: 0
+    swapUVs: 0
+  tangentSpace:
+    generation: 0
+    calculateNormals: 0
+    smoothingAngle: 60
+    splitTangents: 0
+  materials:
+    generation: 1
+  animations:
+    generation: 0
+    bakeAnimations: 0
+    animationCompression: 1
+    animationWrapMode: 0
+    splitAnimations: 1
+  nodeInfo:
+    tank:
+    - 100000
+    - 400000
+    - 3300000
+    - 2300000
+    //RootNode:
+    - 100002
+    - 400002
+    - 11100000
+    tank_weapon:
+    - 100004
+    - 400004
+    - 3300002
+    - 2300002
+AssetImporter:
+  importerVersion: 1
+  fileIDToRecycleName:
+    4300000: tank_weapon
+    4300002: tank
