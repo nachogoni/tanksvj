@@ -134,7 +134,14 @@ public class TankBehaviour : MonoBehaviour
 	{
 		get { return disqualified; }
 	}
-	
+
+    /// <summary>
+    /// Returns true if the tank is able to Shoot Now!
+    /// </summary>
+    public bool CanShoot
+    {
+        get { return timeForNextShoot == 0; }
+    }
 	/// <summary>
 	/// The map of the level
 	/// </summary>
